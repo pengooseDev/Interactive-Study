@@ -15,10 +15,8 @@
 > 앞으로 모든 미션은 같은 방식으로 자신의 계정 아래에 있는 저장소를 활용해 진행해주세요.
 
 - 이미지와 같이 저장소 우측 상단의 fork 버튼을 클릭해 fork합니다.
-  ![fork](./images/etc/fork.png)
 
 - fork를 완료한 후의 저장소 상태는 아래와 같습니다.
-  ![fork my repo](./images/fork_my_repo.jpg)
 
 ---
 
@@ -42,7 +40,6 @@ ex) cd Interactive-Study
 ```
 
 - clone을 완료한 후의 저장소 상태는 아래와 같습니다.
-  ![clone repository](./images/clone_repository.jpg)
 
 ---
 
@@ -58,7 +55,6 @@ ex) git checkout -b javajigi
 ```
 
 - 브랜치를 생성한 후의 상태는 다음과 같다.
-  ![checkout javajigi](./images/checkout_javajigi.jpg)
 
 ---
 
@@ -70,8 +66,6 @@ ex) git checkout -b javajigi
 
 - Visual Studio Code를 시작
 - Open Project
-
-![open project](./images/precourse_vscode.jpg)
 
 - 앞에서 clone한 폴더를 선택합니다.
 
@@ -94,7 +88,6 @@ git commit -m "메시지" // 작업한 내용을 메시지에 기록
 ```
 
 - 기능 구현을 완료하고 add, commit 명령을 실행한 후의 상태는 아래와 같습니다.
-  ![add commit1](./images/add_commit.jpg)
 
 ---
 
@@ -109,7 +102,6 @@ ex) git push origin javajigi
 ```
 
 - push 명령을 실행한 후의 상태는 아래와 같습니다.
-  ![push1](./images/push.jpg)
 
 ---
 
@@ -128,16 +120,10 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 - 브랜치를 작업 브랜치로 변경(앞 단계의 예에서는 javajigi)
 - 브랜치 오른쪽에 있는 **"New pull request"** 버튼 클릭
 
-![pull request 보내기](./images/etc/pull_request_1.png)
-
 - Pull Request 제목은 `[$미션제목] $이름 미션 제출합니다.` 형식으로 작성해주세요.
 - 현재 미션에서 작업한 내용을 입력하고 **"Create pull request"** 버튼을 클릭해 Pull Request를 보내주세요.
 
-![pull request 브랜치 변경](./images/etc/pull_request_2.jpg)
-
 - Pull Request를 보냈을 때의 상태는 아래와 같습니다.
-
-![pull request](./images/pull_request.jpg)
 
 ---
 
@@ -154,8 +140,6 @@ ex) 미션을 진행한 javajigi/java-baseball javajigi 브랜치 => woowacourse
 지원 플랫폼에 로그인한 뒤, 내 지원 현황 페이지에 접속해 주세요.  
 내가 지원한 과정(ex. 웹 백엔드 / 웹 프론트엔드 / 모바일 안드로이드)에 프리코스 과제가 생긴 것을 확인하실 수 있습니다.
 
-![내 지원 현황 페이지](./images/precourse_01.png)
-
 ---
 
 ### 2. 프리코스 과제 제출
@@ -166,8 +150,6 @@ GitHub ID, Pull Request 주소, 과제 진행 소감을 모두 입력하고 제�
 - 한 번 제출한 뒤에도 해당 주차의 프리코스 기한 내에는 수정하실 수 있습니다.
 - GitHub ID에는 아래 이미지를 참고해 GitHub username을 확인하여 입력해 주세요.
 
-![github id 안내](./images/precourse_02.png)
-
 ---
 
 ### 3. 제출한 과제 확인
@@ -175,9 +157,7 @@ GitHub ID, Pull Request 주소, 과제 진행 소감을 모두 입력하고 제�
 제출한 Pull Request를 기반으로 코드가 정상적으로 동작하는지 확인할 수 있습니다.
 
 - 예제 테스트 실행 버튼을 클릭해 테스트를 시작합니다.
-  ![예제 테스트 실행](./images/precourse_03.png)
 - 테스트 중 문구가 나오면 정상적으로 테스트가 실행된 것입니다. 예제 테스트 실행에는 3~5분 정도 소요됩니다.
-  ![예제 테스트 진행중](./images/precourse_04.png)
 
 ---
 
@@ -189,5 +169,3 @@ GitHub ID, Pull Request 주소, 과제 진행 소감을 모두 입력하고 제�
 - 모든 테스트가 성공한 경우: 과제 제출에 성공하였습니다. 주어진 요구사항을 모두 충족하는지 다시 한번 점검해 보면 좋을 것 같습니다.
 - 모든 테스트가 성공하지 않은 경우: 주어진 요구사항을 구현했는지 확인 후 다시 제출해 주세요.
 - 빌드에 실패한 경우: 작성한 코드가 정상적으로 실행되는지 확인 후 다시 제출해 주세요.
-
-![예제 테스트 실행](./images/precourse_05.jpg)
